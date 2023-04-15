@@ -9,34 +9,10 @@ inputs:
     description: ''
     required: true
 outputs:
-  application-name:
-    description: ''
-  application-id:
-    description: ''
   version-code:
     description: ''
   version-name:
     description: ''
-  min-sdk-version:
-    description: ''
-  target-sdk-version:
-    description: ''
-  compile-sdk-version:
-    description: ''
-  uses-permissions:
-    description: ''
-  debuggable:
-    description: ''
-  allow-backup:
-    description: ''
-  supports-rtl:
-    description: ''
-  file-size:
-    description: ''
-  readable-file-size:
-    description: ''
-  result:
-    description: '`success` or `failure` is set.'
 runs:
   using: 'node12'
   main: 'dist/index.js'
